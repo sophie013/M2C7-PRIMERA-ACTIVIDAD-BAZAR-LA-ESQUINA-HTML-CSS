@@ -1,0 +1,216 @@
+
+
+M2C7 CSS
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazar La Esquina</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <button id="accesibilidad-btn">Modo Adulto Mayor mejora la visual del sitio</button>
+    <!-- ======================= HEADER ======================= -->
+    <header>
+        <h1>Bienvenido al Bazar La Esquina</h1>
+    </header>
+
+    <!-- ======================= MENÚ ======================= -->
+    <nav class="menu-principal">
+        <ul>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#historia">Historia</a></li>
+
+            <li>
+                <a href="https://wa.me/56912345678?text=Hola%2C%20necesito%20una%20impresión%20porfavor."
+                    target="_blank" class="whatsapp-btn">
+                    Solicita Impresiones
+                </a>
+            </li>
+
+            <li>
+                <a href="https://wa.me/56912345678?text=Hola%2C%20quisiera%20obtener%20informacion."
+                    target="_blank" class="whatsapp-btn">
+                    Contacto
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- ======================= HISTORIA ======================= -->
+ <section id="fachada">
+            <h2>NUESTRA SUCURSAL</h2>
+
+            <div class="fachada-banner">
+                <img src="img/fachada_negocio.png" alt="Fachada de nuestro minimarket Bazar La Esquina">
+            </div>
+
+            <p class="frase-fachada">
+                ¡Te esperamos en nuestro local en Viña del Mar!
+            </p>
+
+        <br>
+        <section id="historia">
+            <h2>¿Quiénes Somos?</h2>
+
+            <p class="intro">
+                 Bazar "la esquina", es una empresa familiar que nace el año 1998,"al servicio de la comunidad",
+                entregando un servicio de calidad a nuestros vecinos.
+                Nuestra meta es continuar nuestro legado digitalizando nuestros servicios.
+            </p>
+        </section>
+
+        <br>
+
+        <section id="historia">
+        <ul class="destacados-proyecto">
+        <li> <strong>Atención Familiar:</strong> Servicio cálido y personalizado desde 1998.</li>
+        <li> <strong>gran stock de productos:</strong> Desde despensa hasta servicios de impresión.</li>
+        <li> <strong>Innovación Local:</strong> Digitalizando nuestros servicios para la comunidad.</li>
+        </ul>
+        </section>
+        <br>
+  <!-- ======================= GALERÍA ======================= -->
+        <section id="galeria">
+            <h2>NUESTROS PRODUCTOS & SERVICIOS </h2>
+
+            <div class="gallery">
+
+                <div class="gallery-item">
+                    <img src="img/despensa_info.webp" alt="Alimentos para despensa">
+                    <p>Despensa</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="img/verduleria_info.jpg" alt="Verduras frescas">
+                    <p>Verdulería</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="img/pan_info.jpeg" alt="Pan fresco">
+                    <p>Panadería</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="img/alimento.mascota.webp" alt="Alimento para mascotas">
+                    <p>Mascotas</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="img/productos_de_aseo.png" alt="Productos de aseo e higiene">
+                    <p>Aseo</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="img/utiles_escolares.jpg" alt="Útiles escolares">
+                    <p>Útiles Escolares</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="img/impresion_fotocopia.jpeg" alt="Servicio de impresión y fotocopia">
+                    <p>Impresiones</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="img/caja_vecina.jpeg" alt="Servicio Caja Vecina">
+                    <p>Caja Vecina</p>
+                </div>
+
+            </div>
+        </section>
+        <!-- ======================= FACHADA ======================= -->
+       
+        </section>
+        <section id="pedido">
+    <h2>Realiza tu Pedido</h2>
+
+    <form class="form-pedido" action="#" method="post">
+        
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej: rodrigo manriquez " required>
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" placeholder="Ej: rodrigo.Manri.96@gmail.com" required>
+
+        <label for="telefono">Número de teléfono</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="+56 9 1234 5678" required>
+
+        <label for="comentario">Comentario o detalles del pedido</label>
+        <textarea id="comentario" name="comentario" rows="4" placeholder="Ej: Quiero 1 kilo de pan amasado y 5 kg de papas"></textarea>
+
+        <button type="submit" class="btn-pedido">Enviar Pedido</button>
+    </form>
+</section>
+<br>
+<br>
+        <!-- ======================= HORARIOS ======================= -->
+        <section id="horarios">
+            <h3>Nuestros Horarios</h3>
+
+            <ul class="horarios-lista">
+                <li>Lunes 09:00 am a 18:45 pm</li>
+                <li>Martes a viernes 09:00 am a 19:30 pm</li>
+                <li>Sábado a domingo 09:30 am a 14:30 pm</li>
+            </ul>
+        </section>
+        <br>
+
+<section>   <section id="webpay">
+                 <h4> SERVICIO WEBPAY  DISPONIBLE </h4>
+                
+                 <br>
+                 <img src="img/webpay_info.jpg" alt="metodos de pago">
+              
+                </section>
+      
+
+    </main>
+
+    <!-- ======================= FOOTER ======================= -->
+    <footer>
+        
+        <address>
+            <div class="contacto">
+
+        <p class="titulo-contacto">ENCUÉNTRANOS EN</p>
+       calle  #330 Joaquín Huerta, Viña del Mar, Valparaíso Contáctanos al teléfono: 22646393
+        o al correo:
+        <a href="mailto:jaime@bazarlaesquina.cl" class="correo-contacto">
+        Armando.mendoza.saenz@bazarlaesquina.cl
+        </a>
+                            
+                        
+
+            <div class="social-links"> <h5>NUESTRAS REDES SOCIALES</h5>
+                   
+                <a href="https://www.instagram.com/BAZAR_LA_ESQUINA" target="_blank" aria-label="Instagram del Bazar">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://web.facebook.com/BAZAR-LA-ESQUINA." target="_blank" aria-label="Facebook del Bazar">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+
+        </address>
+
+        <p>© 2025 Bazar La Esquina | Desarrollado por Cristobal Zurita , Sophia Lopez  & Francisco Vitali</p>
+    </footer>
+
+    
+</section>
+<script>
+    document.getElementById("accesibilidad-btn").addEventListener("click", function () {
+        document.body.classList.toggle("adulto-mayor");
+    });
+
+</script>
+</body>
+</html>
